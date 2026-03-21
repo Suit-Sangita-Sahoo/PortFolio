@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../Home/Myimage.jpg";
+import image1 from "../Home/Sweetimg.jpeg";
 import "./Logo.css"
 
 const Logo = () => {
@@ -8,7 +8,7 @@ const Logo = () => {
       <img
         src={image1}
         alt="Profile"
-        className="w-72 h-72 md:w-[380px] md:h-[380px] rounded-full object-cover shadow-2xl animate-floating"
+        className="w-72 h-72 md:w-[380px] md:h-[450px] rounded-full object-cover shadow-2xl animate-floating"
       />
     </div>
   );

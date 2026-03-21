@@ -10,34 +10,47 @@ const Contact = () => {
 
   return (
     <div id="contact" className="contact-container">
-      <h2 className="title">Get in touch</h2>
+      
+      {/* 🔥 Heading */}
+      <h2 className="title">Get in Touch</h2>
       <p className="subtitle">
-        Do you have a project in your mind, contact me here
+        Do you have a project in your mind? Contact me here 🚀
       </p>
 
       <div className="contact-content">
-        
+
+        {/* 🔹 LEFT SIDE */}
         <div className="contact-info">
           <h3>Find Me ↩</h3>
           {contactInfo.map((item, index) => (
             <p key={index} className="info-item">
-              {item.icon} {item.label} {item.value}
+              <span className="icon">{item.icon}</span>
+              <span>
+                <b>{item.label}</b> {item.value}
+              </span>
             </p>
           ))}
         </div>
 
-       
+        {/* 🔹 FORM */}
         <form className="contact-form">
           <div className="form-row">
-            <input type="text" placeholder="Name" required />
-            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
           </div>
-          <textarea id="text" placeholder="Message" rows="5" required></textarea>
-          
-        </form>
-        <button type="submit" className="send-btn">
+
+          <textarea
+            id="text"
+            placeholder="Your Message..."
+            rows="5"
+            required
+          ></textarea>
+
+          <button type="submit" className="send-btn">
             Send ✈
           </button>
+        </form>
+
       </div>
     </div>
   );
