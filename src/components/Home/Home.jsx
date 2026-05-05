@@ -38,8 +38,7 @@ const Home = () => {
 
         {/* Description */}
         <p className="text-gray-300 text-base md:text-lg max-w-[480px]">
-          Passionate frontend developer focused on crafting clean, beautiful,
-          and user-friendly web experiences.
+          Enthusiastic full-stack developer experienced in crafting responsive user interfaces and robust backend systems for seamless web experiences.
         </p>
 
         {/* Social Icons */}

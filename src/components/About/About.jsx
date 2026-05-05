@@ -28,8 +28,8 @@ const About = () => {
                 I also have strong knowledge of <b>databases such as Oracle and MySQL</b>, along with experience in <b>REST API development, MVC architecture, and OOPs concepts</b>.
               </p>
               <a
-  href="/Sangita-Resume.pdf"
-  download="Sangita-Resume.pdf"
+  href="/Sangita-Fullstack Resume1.pdf"
+  download="Sangita-Fullstack Resume1.pdf"
   className="flex items-center gap-2  text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition"
 >
               <button className="cv-btn">Download CV <FaCloudDownloadAlt /></button>

@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* 🔹 Download Button */}
         <a
-          href="/Sangita-Resume.pdf"
+          href="/Sangita-FullstackResume.pdf"
           download="Sangita-Resume.pdf"
           className="hidden md:flex items-center gap-2 px-5 py-2 rounded-lg 
           bg-gradient-to-r from-cyan-500 to-purple-600 text-white shadow-lg 
@@ -83,8 +83,8 @@ const Navbar = () => {
           ))}
 
           <a
-            href="/Sangita-Resume.pdf"
-            download="Sangita-Resume.pdf"
+            href="/Sangita-Fullstack Resume1.pdf"
+            download="Sangita-Fullstack Resume1.pdf"
             className="flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-purple-600 
             text-white px-4 py-2 rounded-lg shadow hover:scale-105 transition justify-center"
           >
