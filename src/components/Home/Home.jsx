@@ -53,7 +53,7 @@ const Home = () => {
 
             <li className="w-12 h-12 rounded-full bg-gray-900 border border-gray-700 shadow-lg flex items-center justify-center hover:scale-110 hover:text-blue-500 hover:border-blue-500 transition-all duration-300">
               <a
-                href="https://www.linkedin.com/in/suit-sangita-sahoo-suit-sangita-sahoo-b4b151338/"
+                href="https://www.linkedin.com/in/suit-sangita-sahoo-b4b151338/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
